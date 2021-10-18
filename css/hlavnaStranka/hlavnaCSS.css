@@ -1,28 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: mediumseagreen;
+}
+
+.farbaKontajnera {
+    background-color: blue;
+}
+
 body {
     background-color: #f1f1f1;
+
 }
+
 header {
-    background-color: cadetblue;
+    background-color: dimgrey;
     padding: 100px;
     text-align: center;
-    font-size: 30px;
-    color: darkblue;
-    margin: 1%;
+    color: white;
 
 
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .row {
-    margin: 100px;
-    padding: 1%;
+
 }
+
 
 li {
     background-color: grey;
     text-align: center;
-    margin-bottom: 5px;
-    padding: 8px;
-    top: 300px;
+    color: white;
+    text-decoration: none;
 
 
 }
@@ -36,15 +53,7 @@ ul {
 }
 
 li:hover {
-    background-color: yellow;
-}
-
-article {
-    padding: 10px;
-    color: yellow;
-    float: right;
-    background-color: green;
-
+    background-color: darkslategrey;
 }
 
 
@@ -100,11 +109,10 @@ article {
 
 footer {
 
-    background-color: mediumseagreen;
-    color: darkblue;
+    background-color: dimgrey;
+    color: white;
     text-align: center;
     padding: 5px;
-    width: 100%;
 
 
 }
