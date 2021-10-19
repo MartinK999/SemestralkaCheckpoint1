@@ -5,7 +5,28 @@
 img {
     max-width: 100%;
     height: auto;
+
 }
+img.img-fluid {
+    float: left;
+    margin-right: 3%;
+}
+
+.container.inzeraty {
+
+}
+
+
+
+p.cena {
+
+    margin-top: 80%;
+    text-align: center;
+    background-color: yellow;
+
+
+}
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -15,8 +36,29 @@ ul{
 .container {
     padding: 7%;
 
+
 }
 
+
+.img-fluid {
+    width: 200px !important;
+    height: 150px !important;
+    object-fit: cover;
+
+
+}
+
+.row-bottom-margin-plus {
+    margin-bottom: 5%;
+}
+
+.row-bottom-margin {
+    margin-bottom: -5%;
+}
+
+.row-top-margin {
+    margin-top: -5% !important;
+}
 
 body {
     background-color: #f1f1f1;
@@ -118,6 +160,9 @@ footer {
 
 
 }
+
+
+
 @media screen and (max-width: 760px) {
     a > p {
         color: black;
@@ -130,4 +175,18 @@ footer {
     col {
         margin-left: 1000px;
     }
+
+
+}
+@media screen and (max-width: 575px) {
+
+
+    p.cena {
+        margin-top: 0;
+        padding-bottom: 3%;
+        text-align: center;
+
+
+    }
+
 }
