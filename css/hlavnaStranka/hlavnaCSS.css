@@ -39,8 +39,13 @@ ul{
 
 }
 
-
 .img-fluid {
+    max-width: 250px !important;
+    max-height: 130px !important;
+    object-fit: cover;
+}
+
+.img-fluid.grafiky {
     width: 200px !important;
     height: 150px !important;
     object-fit: cover;
