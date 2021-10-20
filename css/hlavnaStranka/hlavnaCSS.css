@@ -7,27 +7,19 @@ img {
     height: auto;
 
 }
+
 img.img-fluid {
     float: left;
     margin-right: 3%;
 }
 
-.container.inzeraty {
-
-}
-
-
-
 p.cena {
-
     margin-top: 80%;
     text-align: center;
     background-color: yellow;
-
-
 }
 
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,8 +27,6 @@ ul{
 
 .container {
     padding: 7%;
-
-
 }
 
 .popisTabu {
@@ -49,16 +39,12 @@ ul{
     height: 100% !important;
     object-fit: cover;
     padding-bottom: 15%;
-
-
 }
 
 .img-fluid.grafiky {
     width: 200px !important;
     height: 150px !important;
     object-fit: cover;
-
-
 }
 
 .row-bottom-margin-plus {
@@ -75,7 +61,6 @@ ul{
 
 body {
     background-color: #f1f1f1;
-
 }
 
 h1 {
@@ -83,9 +68,8 @@ h1 {
 }
 
 
-
 nav {
-   background-color: darkslategrey;
+    background-color: darkslategrey;
 }
 
 li.nav-item {
@@ -100,13 +84,11 @@ a > p {
     float: right;
     margin-top: 15px;
     margin-bottom: -10px;
-
-
 }
 
 
 a.nav-link {
-    color: white ;
+    color: white;
     background-color: transparent;
     text-decoration: none;
     margin-right: 15px;
@@ -114,7 +96,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    color:yellow;
+    color: yellow;
     background-color: black;
     text-decoration: none;
 }
@@ -135,33 +117,23 @@ header {
 }
 
 
-
-
 li {
     background-color: grey;
     text-align: center;
     color: white;
-    text-decoration: none;
-
-
+    text-decoration: none
 }
-
 
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0px;
-
-
 }
 
 li:hover {
     background-color: darkslategrey;
 }
-
-
-
 
 
 footer {
@@ -170,10 +142,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-
-
 }
-
 
 
 @media screen and (max-width: 760px) {
@@ -191,8 +160,8 @@ footer {
 
 
 }
-@media screen and (max-width: 575px) {
 
+@media screen and (max-width: 575px) {
 
     p.cena {
         margin-top: 0;
